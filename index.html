@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lio's POV — Real Talk. Real Stories.</title>
+  <meta name="description" content="Lio's POV is a place for honest conversations, meaningful reflections, and real stories about life, personal growth, and everything in between.">
+
+  <!-- Typefaces: Fraunces (editorial display serif), Inter (body), IBM Plex Mono (labels & timestamps) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen reader users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__mark" aria-label="Lio's POV, back to top">
+        <!-- Signature waveform mark, doubles as the brand's audio motif -->
+        <svg class="mark__wave" width="22" height="16" viewBox="0 0 22 16" fill="none" aria-hidden="true">
+          <path d="M1 8H4L6 2V14L9 4V12L12 6V10L15 3V13L18 8H21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Lio&rsquo;s POV</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#podcast">Podcast</a>
+        <a href="#journal">Journal</a>
+        <a href="#series">Series</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__waveform" aria-hidden="true">
+        <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0 100 L40 100 L60 40 L80 160 L100 60 L120 140 L140 20 L160 180 L180 80 L200 120 L220 100 L240 100 L260 30 L280 170 L300 70 L320 130 L340 100 L360 100 L380 50 L400 150 L420 90 L440 110 L460 100 L480 100 L500 20 L520 180 L540 60 L560 140 L580 100 L600 100 L620 40 L640 160 L660 80 L680 120 L700 100 L720 100 L740 30 L760 170 L780 70 L800 130 L820 100 L840 100 L860 50 L880 150 L900 90 L920 110 L940 100 L960 100 L980 20 L1000 180 L1020 60 L1040 140 L1060 100 L1080 100 L1100 45 L1120 155 L1140 85 L1160 115 L1180 100 L1200 100" stroke="currentColor" stroke-width="1" fill="none"/>
+        </svg>
+      </div>
+
+      <div class="hero__content reveal">
+        <p class="eyebrow">Podcast &amp; Journal</p>
+        <h1 class="hero__title">Lio&rsquo;s POV</h1>
+        <p class="hero__tagline">Real Talk. Real Stories.</p>
+        <p class="hero__mission">
+          A place for honest conversations, meaningful reflections, and real stories
+          about life, personal growth, and everything in between.
+        </p>
+        <div class="hero__actions">
+          <a href="#podcast" class="btn btn--primary">Listen to the Podcast</a>
+          <a href="#series" class="btn btn--ghost">Explore Series</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED CONTENT ============ -->
+    <section class="section" id="journal" aria-labelledby="featured-heading">
+      <div class="section__inner">
+        <p class="eyebrow reveal">Latest</p>
+        <h2 id="featured-heading" class="section__heading reveal">Featured</h2>
+
+        <a href="#" class="featured reveal">
+          <div class="featured__art" aria-hidden="true">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0 50 L8 50 L12 20 L16 80 L20 35 L24 65 L28 50 L32 50 L36 15 L40 85 L44 40 L48 60 L52 50 L56 50 L60 25 L64 75 L68 45 L72 55 L76 50 L80 50 L84 18 L88 82 L92 42 L96 58 L100 50" stroke="currentColor" stroke-width="0.8" fill="none"/>
+            </svg>
+          </div>
+          <div class="featured__body">
+            <p class="meta-line">Episode&nbsp;014 &middot; 42&nbsp;min &middot; July 2026</p>
+            <h3 class="featured__title">On Starting Over Without Knowing the Ending</h3>
+            <p class="featured__excerpt">
+              A conversation about the quiet decisions that change everything — leaving what's
+              comfortable, sitting with uncertainty, and trusting the process even when it
+              doesn't make sense yet.
+            </p>
+            <span class="link-arrow">Listen to this episode <span aria-hidden="true">&rarr;</span></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ CONTENT SERIES ============ -->
+    <section class="section" id="series" aria-labelledby="series-heading">
+      <div class="section__inner">
+        <p class="eyebrow reveal">What you&rsquo;ll find here</p>
+        <h2 id="series-heading" class="section__heading reveal">Content Series</h2>
+
+        <div class="cards" id="podcast">
+          <!-- Card 1 — Podcast -->
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Z" stroke="currentColor" stroke-width="1.4"/><path d="M6 11v1a6 6 0 0 0 12 0v-1M12 18v3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </span>
+            <h3 class="card__title">Podcast</h3>
+            <p class="card__desc">Long-form, unscripted conversations on life, faith, growth, and the things we don't usually say out loud.</p>
+          </article>
+
+          <!-- Card 2 — Project 365 -->
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="4.5" width="17" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 9.5h17M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </span>
+            <h3 class="card__title">Project 365</h3>
+            <p class="card__desc">A daily record — small notes and reflections written one day at a time, for a full year.</p>
+          </article>
+
+          <!-- Card 3 — Sunday Reset -->
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.4"/><path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12H5M19 12h2.5M4.2 19.8 6 18M18 6l1.8-1.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </span>
+            <h3 class="card__title">Sunday Reset</h3>
+            <p class="card__desc">A weekly pause — slowing down to reflect, recalibrate, and start the week with a clearer head.</p>
+          </article>
+
+          <!-- Card 4 — What Nobody Told Me... -->
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5h16v11H9.5L5 20v-3.5H4v-11Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M12 9.2c0-1 .9-1.4 1.6-1.4.9 0 1.6.6 1.6 1.4 0 1.1-1.6 1.2-1.6 2.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="13.6" cy="13.8" r="0.15" fill="currentColor" stroke="currentColor" stroke-width="0.9"/></svg>
+            </span>
+            <h3 class="card__title">What Nobody Told Me&hellip;</h3>
+            <p class="card__desc">Honest, after-the-fact lessons — the things people rarely mention until you've already lived through them.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section--about" id="about" aria-labelledby="about-heading">
+      <div class="section__inner section__inner--narrow">
+        <p class="eyebrow reveal">About</p>
+        <h2 id="about-heading" class="section__heading reveal">Why this exists</h2>
+
+        <div class="about__text reveal">
+          <p>
+            Lio&rsquo;s POV started as a simple idea: that most of the important conversations
+            happen in the in-between moments — late at night, mid-drive, or in the middle of
+            an ordinary week. This is an attempt to hold onto a few of those conversations
+            and share them honestly, without polishing away the uncertainty that makes them real.
+          </p>
+          <p>
+            It isn&rsquo;t about having the answers. It&rsquo;s about showing up consistently,
+            asking better questions, and paying attention to the small, unremarkable moments
+            that quietly shape a life — one episode, one entry, one Sunday at a time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LISTEN & FOLLOW ============ -->
+    <section class="section section--follow" aria-labelledby="follow-heading">
+      <div class="section__inner">
+        <p class="eyebrow reveal">Stay connected</p>
+        <h2 id="follow-heading" class="section__heading reveal">Listen &amp; Follow</h2>
+
+        <ul class="follow-list reveal">
+          <li>
+            <a class="follow-btn" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.4"/><path d="M7.5 9.8c3-1 6.6-.7 9.2.9M8 12.8c2.4-.75 5.2-.5 7.4.7M8.5 15.6c2-.5 4.1-.35 5.8.55" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              <span>Spotify</span>
+            </a>
+          </li>
+          <li>
+            <a class="follow-btn" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.75" y="5.5" width="18.5" height="13" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M10.3 9.6v4.8l4.4-2.4-4.4-2.4Z" fill="currentColor"/></svg>
+              <span>YouTube</span>
+            </a>
+          </li>
+          <li>
+            <a class="follow-btn" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.4"/><path d="M14 8.2h-1.5c-.9 0-1.3.5-1.3 1.4v1.9H14l-.35 2.3h-1.95V19h-2.3v-5.2H7.7v-2.3h1.7V9.3c0-1.9 1.1-3.1 3-3.1H14v2Z" fill="currentColor"/></svg>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a class="follow-btn" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4.5c.5 2.1 1.9 3.4 4 3.6v2.3c-1.5 0-2.8-.45-4-1.3v5.7a4.9 4.9 0 1 1-4.9-4.9c.25 0 .5.02.75.06v2.4a2.5 2.5 0 1 0 1.75 2.4V4.5H14Z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg>
+              <span>TikTok</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__mark">
+        <svg class="mark__wave" width="20" height="14" viewBox="0 0 22 16" fill="none" aria-hidden="true">
+          <path d="M1 8H4L6 2V14L9 4V12L12 6V10L15 3V13L18 8H21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Lio&rsquo;s POV</span>
+      </div>
+      <p class="footer__tagline">Real Talk. Real Stories.</p>
+      <p class="footer__copy">&copy; <span id="year"></span> Lio&rsquo;s POV. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
