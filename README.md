@@ -1,17 +1,15 @@
 # Lio's POV
 
-Official website of Lio's POV.
+Official source code for the Lio's POV website.
 
-Real Talk. Real Stories.
+## About
 
-A place for honest conversations, meaningful reflections, and real stories about life, personal growth, and everything in between.
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
+Lio's POV is a place for honest conversations, meaningful reflections, and real stories about life, personal growth, and everything in between.
 
 ## Status
 
-🚧 Under active development
+🚧 Active Development
+
+## Website
+
+https://liospov.com
